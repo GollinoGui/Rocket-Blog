@@ -4,10 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Poly | Rocket League Pro</title>
+
   <link rel="stylesheet" href="styles/main.css" />
   <script defer src="scripts/main.js"></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Font Awesome (ícones das redes) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
@@ -18,184 +22,216 @@
       <h1>Poly</h1>
       <nav>
         <ul>
-          <li><a href="#home">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#stats">Estatísticas</a></li>
-          <li><a href="#objetivos">Objetivos</a></li>
-          <li><a href="#clipes">Clipes</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a class="nav-btn" href="#home">Início</a></li>
+          <li><a class="nav-btn" href="#sobre">Sobre</a></li>
+          <li><a class="nav-btn" href="#stats">Estatísticas</a></li>
+          <li><a class="nav-btn" href="#objetivos">Objetivos</a></li>
+          <li><a class="nav-btn" href="#curiosidades">Curiosidades</a></li>
+          <li><a class="nav-btn" href="#clipes">Clipes</a></li>
+          <li><a class="nav-btn" href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section id="home" class="hero">
+  <section id="home" class="hero" aria-label="Hero com imagem de campo">
     <div class="hero-content">
-      <h2>Grand Champion 3</h2>
+      <h2>Poly</h2>
       <p>Jogando no limite. Vivendo o Rocket League.</p>
     </div>
   </section>
 
   <section id="sobre" class="content-section">
-  <h2>Sobre Mim</h2>
-  <p>Meu nome é Poly, sou jogador profissional de Rocket League, atualmente Grand Champion 3 no 2v2. Comecei a jogar em 2016, e desde então sou apaixonado pela competitividade, mecânicas avançadas e a mentalidade que esse jogo exige. Já participei de diversos torneios, treino diariamente e estou em busca de evolução constante. Meu foco atual é alcançar o Top 100 BR, aprimorar minha leitura de jogo e marcar presença em etapas da RLCS.</p>
-  <p>Além da gameplay, gosto de criar conteúdo, fazer reviews de partidas, trocar experiências com a comunidade e compartilhar minha jornada com quem também é apaixonado por esse cenário.</p>
-</section> 
+    <h2>Sobre Mim</h2>
+    <p>Meu nome é Poly, sou jogador profissional de Rocket League, atualmente Grand Champion 3 no 2v2. Comecei a jogar em 2016, e desde então sou apaixonado pela competitividade, mecânicas avançadas e a mentalidade que esse jogo exige. Já participei de diversos torneios, treino diariamente e estou em busca de evolução constante. Meu foco atual é alcançar o Top 100 BR, aprimorar minha leitura de jogo e marcar presença em etapas da RLCS.</p>
+    <p>Além da gameplay, gosto de criar conteúdo, fazer reviews de partidas, trocar experiências com a comunidade e compartilhar minha jornada com quem também é apaixonado por esse cenário.</p>
+  </section> 
 
-<section id="curiosidades" class="content-section curiosidades">
-  <h2>Curiosidades</h2>
-  <div class="curiosidade-grid">
-    <div class="curiosidade-card">
-      <h3>Carro Favorito</h3>
-      <p>Octane — clássico, confiável.</p>
-    </div>
-    <div class="curiosidade-card">
-      <h3>Pintura Preferida</h3>
-      <p>Neural Network (Black).</p>
-    </div>
-    <div class="curiosidade-card">
-      <h3>Roda Favorita</h3>
-      <p>Oem.</p>
-    </div>
-    <div class="curiosidade-card">
-      <h3>Comecei a jogar em...</h3>
-      <p>2016 — época em que o wall drag era difícil</p>
-    </div>
-    <div class="curiosidade-card">
-      <h3>Manobra favorita</h3>
-      <p>Flip reset!</p>
-    </div>
-    <div class="curiosidade-card">
-      <h3>Trilha sonora preferida</h3>
-      <p>“Chase Atlantic”.</p>
-    </div>
-  </div>
-</section>
+  <div class="section-divider"></div>
 
   <section id="duo" class="content-section">
-  <h2>Meu Duo</h2>
-  <div class="duo-card">
-    <img src="/assets/razorfoto.png" alt="Razorbeast">
-    <div class="duo-info">
-      <h3>Razorbeast</h3>
-      <p>Jogamos juntos desde 2016. Ele é muito versátil, e se Destaca em Noção de Jogo.</p>
-      <a class="liquipedia-btn" href="https://liquipedia.net/rocketleague/Razorbeast" target="_blank">
-        <span>🔗 Ver na Liquipedia</span>
-      </a>
+    <h2>Meu Duo</h2>
+    <div class="duo-card">
+      <img src="/assets/razorfoto.png" alt="Razorbeast">
+      <div class="duo-info">
+        <h3>Razorbeast</h3>
+        <p>Jogamos juntos desde 2016. Ele é muito versátil, e se destaca em noção de jogo.</p>
+        <a class="liquipedia-btn" href="https://liquipedia.net/rocketleague/Razorbeast" target="_blank" rel="noopener">🔗 Ver na Liquipedia</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="setup" class="content-section">
-  <h2>Meu Setup</h2>
-  <ul class="setup-list">
-    <li><strong>Teclado:</strong> HyperX Alloy Origins</li>
-    <li><strong>Monitor:</strong> 240Hz AOC</li>
-    <li><strong>Placa de Vídeo:</strong> GTX 1660</li>
-    <li><strong>Mouse:</strong> Logitech G Pro SuperLight</li>
-  </ul>
-</section>
+  <section id="setup" class="content-section">
+    <h2>Meu Setup</h2>
+    <ul class="setup-list">
+      <li><strong>Teclado:</strong> HyperX Alloy Origins</li>
+      <li><strong>Monitor:</strong> 240Hz AOC</li>
+      <li><strong>Placa de Vídeo:</strong> GTX 1660</li>
+      <li><strong>Mouse:</strong> Logitech G Pro SuperLight</li>
+    </ul>
+  </section>
 
-<section id="configs" class="content-section">
-  <h2>Minhas Configurações</h2>
-  <ul class="setup-list">
-    <li><strong>Ângulo da Câmera:</strong> -3.00</li>
-    <li><strong>FOV:</strong> 110</li>
-    <li><strong>Distância da Câmera:</strong> 270</li>
-    <li><strong>Angulo da Câmera:</strong> 100</li>
-  </ul>
-</section>
+  <section id="configs" class="content-section">
+    <h2>Minhas Configurações</h2>
+    <ul class="setup-list">
+      <li><strong>Ângulo da Câmera:</strong> -3.00</li>
+      <li><strong>FOV:</strong> 110</li>
+      <li><strong>Distância da Câmera:</strong> 270</li>
+      <li><strong>Altura da Câmera:</strong> 100</li>
+    </ul>
+  </section>
 
-<section id="blog" class="content-section">
-  <h2>Diário de Treino</h2>
-  <div class="diario-entry">
-    <span class="data">25/07/2025</span>
-    <p>Foquei em 2v2 hoje, foquei em posicionamento. GG +40 MMR!</p>
-  </div>
-  <div class="diario-entry">
-    <span class="data">24/07/2025</span>
-    <p>Revi replays de Pro. Ajustei rotações. Objetivo: top 100 BR.</p>
-  </div>
-</section>
+  <div class="section-divider"></div>
+
+  <section id="blog" class="content-section">
+    <h2>Diário de Treino</h2>
+    <div class="diario-entry">
+      <span class="data">25/07/2025</span>
+      <p>Foquei em 2v2 hoje, foquei em posicionamento. GG +40 MMR!</p>
+    </div>
+    <div class="diario-entry">
+      <span class="data">24/07/2025</span>
+      <p>Revi replays de Pro. Ajustei rotações. Objetivo: top 100 BR.</p>
+    </div>
+  </section>
 
   <section id="stats" class="content-section">
-  <h2>Estatísticas</h2>
-  <div class="stats-container">
-    <div class="stat-card">
-      <div class="stat-number" data-value="12346">0</div>
-      <div class="stat-label">Gols</div>
+    <h2>Estatísticas</h2>
+    <div class="stats-container">
+      <div class="stat-card"><div class="stat-number" data-value="12346">0</div><div class="stat-label">Gols</div></div>
+      <div class="stat-card"><div class="stat-number" data-value="8217">0</div><div class="stat-label">Saves</div></div>
+      <div class="stat-card"><div class="stat-number" data-value="4892">0</div><div class="stat-label">Assistências</div></div>
+      <div class="stat-card"><div class="stat-number" data-value="1305">0</div><div class="stat-label">MVPs</div></div>
+      <div class="stat-card"><div class="stat-number" data-value="7453">0</div><div class="stat-label">Vitórias</div></div>
     </div>
-    <div class="stat-card">
-      <div class="stat-number" data-value="8217">0</div>
-      <div class="stat-label">Saves</div>
+  </section>
+
+  <section id="objetivos" class="content-section">
+    <h2>Objetivos</h2>
+    <div class="flip-grid">
+      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Top 10 BR no 2v2</div><div class="flip-back">Meta até Dez/2025</div></div></div>
+      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Melhorar Noção de Game</div><div class="flip-back">Review diário de replays</div></div></div>
+      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Participar da RLCS Day 2</div><div class="flip-back">Treino em trio 3x/sem</div></div></div>
+      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Streamar semanalmente</div><div class="flip-back">Toda sexta às 20h</div></div></div>
     </div>
-    <div class="stat-card">
-      <div class="stat-number" data-value="4892">0</div>
-      <div class="stat-label">Assistências</div>
+  </section>
+
+  <section id="curiosidades" class="content-section curiosidades">
+  <h2>Curiosidades</h2>
+  <div class="curiosidade-grid">
+
+    <!-- Mapa Favorito -->
+    <div class="curiosidade-card">
+      <span class="c-icon c-icon--map" aria-hidden="true">
+        <!-- MAPA (folhas dobradas) -->
+        <svg viewBox="0 0 24 24">
+          <path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z"/>
+          <path d="M9 4v14M15 6v14"/>
+        </svg>
+      </span>
+      <h3>Mapa Favorito</h3>
+      <p>DFH Stadium 10 Years</p>
     </div>
-    <div class="stat-card">
-      <div class="stat-number" data-value="1305">0</div>
-      <div class="stat-label">MVPs</div>
+
+    <!-- Horas Jogadas -->
+    <div class="curiosidade-card">
+      <span class="c-icon c-icon--time" aria-hidden="true">
+        <!-- RELÓGIO -->
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="8"/>
+          <path d="M12 8v5l3 2"/>
+        </svg>
+      </span>
+      <h3>Horas Jogadas</h3>
+      <p>5.400h</p>
     </div>
-    <div class="stat-card">
-      <div class="stat-number" data-value="7453">0</div>
-      <div class="stat-label">Vitórias</div>
+
+    <!-- Mecânica Favorita -->
+    <div class="curiosidade-card">
+      <span class="c-icon c-icon--mech" aria-hidden="true">
+        <!-- BOLA + SETA (flip reset + musty) -->
+        <svg viewBox="0 0 24 24">
+          <circle cx="10" cy="10" r="3"/>
+          <path d="M15 15c1.8 1.8 4.7 1.8 6.5 0"/>
+          <path d="M18.5 12.5l3 2-2 3"/>
+          <path d="M7 7l2 2M7 13l2-2"/>
+        </svg>
+      </span>
+      <h3>Mecânica Favorita</h3>
+      <p>Flip Reset + Musty</p>
     </div>
+
+    <!-- Jogo fora do Rocket -->
+    <div class="curiosidade-card">
+      <span class="c-icon c-icon--game" aria-hidden="true">
+        <!-- GAMEPAD -->
+        <svg viewBox="0 0 24 24">
+          <path d="M6 16l3-2h6l3 2c2 0 3-1.5 3-3.5S19.5 9 17.5 9H6.5C4.5 9 3 10.5 3 12.5S4 16 6 16Z"/>
+          <path d="M8 12h2M9 11v2"/>
+          <circle cx="16.5" cy="12" r="1"/>
+          <circle cx="18.5" cy="13.5" r="1"/>
+        </svg>
+      </span>
+      <h3>Fora do Rocket</h3>
+      <p>WARFRAME (RPG)</p>
+    </div>
+
+    <!-- Time que torço -->
+    <div class="curiosidade-card">
+      <span class="c-icon c-icon--team" aria-hidden="true">
+        <!-- PATA (referência felina genérica) -->
+        <svg viewBox="0 0 24 24">
+          <circle cx="7.5" cy="9" r="1.6"/>
+          <circle cx="12" cy="7.8" r="1.6"/>
+          <circle cx="16.5" cy="9" r="1.6"/>
+          <path d="M7 15c1.5-2.2 6.5-2.2 8 0 1 1.4.3 3-1.5 3.5-1.1.3-2.1.5-2.5.5s-1.4-.2-2.5-.5C6.7 18 6 16.4 7 15Z"/>
+        </svg>
+      </span>
+      <h3>Time que Torço</h3>
+      <p>FURIA</p>
+    </div>
+
   </div>
 </section>
 
-
-<section id="objetivos" class="content-section">
-  <h2>Objetivos</h2>
-  <div class="flip-grid">
-    <div class="flip-card">
-      <div class="flip-inner">
-        <div class="flip-front">Top 100 BR no 2v2</div>
-        <div class="flip-back">Meta até agosto 2025</div>
-      </div>
-    </div>
-    <div class="flip-card">
-      <div class="flip-inner">
-        <div class="flip-front">Melhorar Noção de Game</div>
-        <div class="flip-back">Review diário de replays</div>
-      </div>
-    </div>
-    <div class="flip-card">
-      <div class="flip-inner">
-        <div class="flip-front">Participar da RLCS Day 2</div>
-        <div class="flip-back">Treino em trio 3x por semana</div>
-      </div>
-    </div>
-    <div class="flip-card">
-      <div class="flip-inner">
-        <div class="flip-front">Streamar semanalmente</div>
-        <div class="flip-back">Toda sexta às 20h</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  
+  <div class="section-divider"></div>
 
   <section id="clipes" class="content-section">
     <h2>Clipes Favoritos</h2>
     <div class="video-grid">
       <iframe src="https://www.youtube.com/embed/stIHZmcOI-k" title="TORE UP🏴 (Rocket league Montage)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-      <!-- Adicione mais clipes aqui -->
     </div>
   </section>
 
   <section id="contato" class="content-section">
-  <h2>Me Acompanha Lá</h2>
-  <p>Quer ver meus melhores momentos, lives ou trocar ideia?<br>Me segue nas redes abaixo:</p>
+    <h2>Me Acompanha Lá</h2>
+    <p>Quer ver meus melhores momentos, lives ou trocar ideia?<br>Me segue nas redes abaixo:</p>
+    <div class="social-links">
+  <!-- Twitch -->
+  <a href="https://www.twitch.tv/polyfds" target="_blank" class="social-btn twitch" aria-label="Twitch">
+    <svg viewBox="0 0 24 24">
+      <path d="M4 2h16v14l-4 4h-4l-4 4v-4H4z"/>
+      <path d="M8 7h2v5H8zM14 7h2v5h-2z"/>
+    </svg>
+  </a>
 
-  <div class="social-icons">
-    <a href="https://www.twitch.tv/polyfds" target="_blank" class="icon twitch" title="Twitch"><i class="fab fa-twitch"></i></a>
-    <a href="https://www.youtube.com/@PolyRl" target="_blank" class="icon youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
-    <a href="https://www.tiktok.com/@polyrl?lang=pt-BR" target="_blank" class="icon tiktok" title="TikTok"><i class="fab fa-tiktok"></i></a>
-  </div>
-</section>
+  <!-- YouTube -->
+  <a href="https://www.youtube.com/@PolyRl" target="_blank" class="social-btn youtube" aria-label="YouTube">
+    <svg viewBox="0 0 24 24">
+      <path d="M21.8 8.001a2.75 2.75 0 0 0-1.94-1.945C18.2 5.7 12 5.7 12 5.7s-6.2 0-7.86.356a2.75 2.75 0 0 0-1.94 1.945A28.4 28.4 0 0 0 2 12a28.4 28.4 0 0 0 .26 3.999 2.75 2.75 0 0 0 1.94 1.945C5.8 18.3 12 18.3 12 18.3s6.2 0 7.86-.356a2.75 2.75 0 0 0 1.94-1.945A28.4 28.4 0 0 0 22 12a28.4 28.4 0 0 0-.2-3.999Z"/>
+      <path d="M10 9.75v4.5L14 12z"/>
+    </svg>
+  </a>
+
+  <!-- TikTok -->
+  <a href="https://www.tiktok.com/@polyrl" target="_blank" class="social-btn tiktok" aria-label="TikTok">
+    <svg viewBox="0 0 24 24">
+      <path d="M16 8a4 4 0 0 1-4-4v12a4 4 0 1 1-4-4"/>
+    </svg>
+  </a>
+</div>
+
+  </section>
 
   <footer>
     <p>&copy; 2025 Poly. Todos os direitos reservados.</p>
